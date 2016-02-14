@@ -35,7 +35,8 @@ nav{
 
 #search-bar{
 	width: 300px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	float: right;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -71,7 +72,7 @@ button{
 }
 
 .upload-section{
-	/*float: right;*/
+	float: right;
 	cursor: pointer;
 }
 
@@ -83,8 +84,10 @@ button{
 }
 
 #upload-button{
+	float: right;
 	background-color: #000;
 	border-color: #7300e6;
+	display: none;
 }
 
 .welcome-section{

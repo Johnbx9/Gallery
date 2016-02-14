@@ -4,8 +4,8 @@ var art = [];
 var PayPalIsDown = false;
 
 $(document).ready(function(){
-	//display_all();
-	ajaxFunction("color");
+	display_all();
+	//ajaxFunction("color");
 
 	$(".welcome-section").click(function(){
 		$(".profile-dropdown").toggle();		
@@ -29,6 +29,9 @@ $(document).ready(function(){
 	$(".upload-section").click(function(){
 		//$("#overlay").show();
 
+
+		alert("this feature has not been implemented yet");
+		/*
 		if(getCookie("first-time-upload")!="true"){
 			if(confirm("By clicking ok below, you agree that you are the original artist of all art that you upload")){
 				setCookie("first-time-upload", "true", 0.01);
@@ -41,6 +44,7 @@ $(document).ready(function(){
 			window.open("upload.html");
 
 		}
+		*/
 	});
 
 	$(".change").click(function(){
@@ -50,7 +54,7 @@ $(document).ready(function(){
 	$('#search').keydown(function(event){
 		var key = event.which || event.keycode;
 		if(key == 13){
-			//search();
+			search();
 			//ajaxFunction();
 		}
 	});
@@ -58,7 +62,8 @@ $(document).ready(function(){
 	$("#search_button").click(function(e){
 		e.preventDefault();
 		var	str = document.getElementById("search").value;
-		ajaxFunction(str);
+		//ajaxFunction(str);
+
 	});
 
 });
@@ -100,13 +105,7 @@ $(document).ready(function(){
 	  ajaxRequest.onreadystatechange=function() {
 	    if (ajaxRequest.readyState==4 /*&& ajaxRequest.status==200*/) {
 	    	var res = ajaxRequest.responseText;
-
 	    	var JSONarray_str = res.split("#");
-
-
-	    	//art = jQuery.parseJSON(res);
-
-
 
 	    	//display_attributes();
 	    	$("#search-results").empty();
@@ -120,10 +119,8 @@ $(document).ready(function(){
 	    	}
 	    }
 	  }
-	  ajaxRequest.open("GET","search.php?searchValue="+str,true);
+	  ajaxRequest.open("GET","search.php?searchValue="+str,true);//string query sent in through the url
 	  ajaxRequest.send(null);
-
-	//retreiving data from database
 	}
 
 
@@ -216,9 +213,9 @@ var display_results = function(input){
 
 	if(input!=""){
 		if(notFound){
-			out += "<p id = 'not-found'>Sorry, could not find '"+input+"'</p>";
+			out += "<p id = 'not-found'>Sorry, could not find '"+input+"'</p>" ;
 		} else{
-			out = "<p id = 'not-found'>"+found+" results found for '"+input+"'</p>" + out;	
+			out = "<p id = 'not-found'>"+found+" results found for '"+input+"'</p>"+out;	
 		}
 	}
 
@@ -363,11 +360,8 @@ function passArtStuff(apID, buyerID){
       data: ({
       	apID:apIDval,
       	buyerID:buyerIDval
-
       })
     });
-
-
 	//window.location.href="order.php?apID="+apIDval+"&buyerID="+buyerIDval;
 };
 
@@ -393,7 +387,7 @@ function add_post(i){
 	out += "<div class = 'col-md-6'><p class = 'price'>PRICE: <span class = 'price-number'>$"+price+"</span></p></div>";
 	out += "</div></div></div></div>";
 
-	$("#search-results").append(out);
+	//$("#search-results").append(out);
 
 	$('.post').click(function(){
 		//alert("clicked!");
@@ -401,6 +395,8 @@ function add_post(i){
 		popup(index);
 		$("#details").show();
 	});
+
+	return out
 
 }
 

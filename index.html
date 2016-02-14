@@ -84,16 +84,16 @@
 		<nav>
 			<div class = "row">
 				<a href = "index.html">
-					<div class = "col-md-4" id = "logo">
+					<div class = "col-md-6" id = "logo">
 						<h1>Gallery</h1>
 					</div>
 				</a>
-				<div class = "col-md-4">
-					<div id = "search-bar">
+				<div class = "col-md-6" id = "search-bar">
+					<div >
 						<form method="get" enctype="multipart/form-data">
 
 						<!--<div class="input-wrapper">-->
-						<input id = "search" type = "text" placeholder = "search...">
+						<input id = "search" type = "text" placeholder = "search for something">
 						<!--</div>-->
 						<button type = "submit" id = "search_button" ><i class = "fa fa-search" ></i></button>
 						<!--removed onclick = "search()" -->
@@ -101,10 +101,13 @@
 					</div>
 				</div>
 				<!--<a href = "upload.html" class = "disabled">-->
+				<!--
 				<div class = "col-md-4">
-					<div class = "col-md-8 upload-section">
+					<div class = "upload-section">
 							<button id = "upload-button"><i class = "fa fa-upload" id = "upload"> Upload Art</i></button>
 					</div>
+				-->
+					<!--
 					<div class = "col-md-4 welcome-section">
 						<p class = "welcome-back">Welcome Back, </p>
 						<p class = "welcome-name">John! <i class = "fa fa-caret-down"></i></p>
@@ -113,6 +116,7 @@
 							<li>Logout</li>
 						</ul>
 					</div>
+					-->
 				<!--</a>-->
 			</div>
 		</nav>
@@ -127,5 +131,6 @@
 
 		<script type="text/javascript" src = "js/cookies.js"></script>
 		<script type="text/javascript" src = "js/script.js"></script>
+		<script type="text/javascript" src = "js/json.js"></script>
 	</body>
 </html>

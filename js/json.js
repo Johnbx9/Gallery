@@ -6,7 +6,7 @@ var art = [
 			{"tag":"cars"},
 			{"tag":"background"}
 		],
-		"url":"rainbow-road.jpg",
+		"url":"img/art/rainbow-road.jpg",
 		"price":5000,
 		"artist":"unknown",
 		"description":"rainbow road, just like in mario kart"
@@ -18,7 +18,7 @@ var art = [
 			{"tag":"zebra"},
 			{"tag":"background"}
 		],
-		"url":"zebra.jpg",
+		"url":"img/art/zebra.jpg",
 		"price":5000,
 		"artist":"unknown",
 		"description":"What's better than a black and white zebra? A rainbow zebra, that's what."
@@ -30,7 +30,7 @@ var art = [
 			{"tag":"circle"},
 			{"tag":"background"}
 		],
-		"url":"circle_art.jpg",
+		"url":"img/art/circle_art.jpg",
 		"price":5000,
 		"artist":"unknown",
 		"description":""
@@ -40,7 +40,7 @@ var art = [
 			{"tag":"nudity"},
 			{"tag":"background"}
 		],
-		"url":"rainbow-hair.jpg",
+		"url":"img/art/rainbow-hair.jpg",
 		"price":5000,
 		"artist":"unknown",
 		"description":"Did you ever get so high that you dunked your head in paint?"
@@ -51,124 +51,85 @@ var art = [
 			{"tag":"painting"},
 			{"tag":"classic"}
 		],
-		"url":"starry-night.jpg",
+		"url":"img/art/starry-night.jpg",
 		"price":5000,
 		"artist":"van gogh",
 		"description":"goghing once. goghing twice. sold!!"
 	},{
 		"tags": [
-			{"tag":"city"},
+			{"tag":"black and white"},
+			{"tag":"robot"},
+			{"tag":"gundam"}
+		],
+		"url":"img/art/robot.jpg",
+		"price":5000,
+		"artist":"john doe",
+		"description":""
+	},{
+		"tags": [
 			{"tag":"color"},
+			{"tag":"landscape"},
+			{"tag":"city"},
 			{"tag":"black"},
-			{"tag":"fog"},
-			{"tag":"moon"},
-			{"tag":"sky"},
-			{"tag":"background"}
+			{"tag":"buildings"},
+			{"tag":"moon"}
 		],
-		"url":"city_sky.jpg",
-		"price":5000,
-		"artist":"unknown",
-		"description":"will anyone even read these"
+		"url":"img/art/city.jpg",
+		"price":6000,
+		"artist":"jane doe",
+		"description":""
 	},{
 		"tags": [
-			{"tag":"clouds"},
+			{"tag":"color"},
 			{"tag":"landscape"},
-			{"tag":"sky"},
-			{"tag":"mountain"},
-			{"tag":"landscape"},
-			{"tag":"background"}
-		],
-		"url":"clouds_landscape.jpg",
-		"price":5000,
-		"artist":"unknown",
-		"description":"insert description here"
-	},{
-		"tags": [
 			{"tag":"city"},
 			{"tag":"green"},
-			{"tag":"black"},
-			{"tag":"spooky"},
-			{"tag":"apocalypse"},
-			{"tag":"end of days"},
-			{"tag":"aliens"},
-			{"tag":"run"},
-			{"tag":"background"}
+			{"tag":"alien"}
 		],
-		"url":"greenishcity.jpg",
-		"price":5000,
-		"artist":"unknown",
+		"url":"img/art/alien_city.jpg",
+		"price":3000,
+		"artist":"jane doe",
 		"description":"spooky"
 	},{
 		"tags": [
-			{"tag":"moon"},
-			{"tag":"sky"},
-			{"tag":"clouds"},
-			{"tag":"bird"},
-			{"tag":"art"},
-			{"tag":"green"}
-		],
-		"url":"moon-landscape.jpg",
-		"price":5000,
-		"artist":"unknown",
-		"description":"why is the moon so big"
-	},{
-		"tags": [
-			{"tag":"mountains"},
-			{"tag":"ocean"},
-			{"tag":"sky"},
+			{"tag":"color"},
 			{"tag":"landscape"},
-			{"tag":"background"}
-		],
-		"url":"ocean_mountains.jpg",
-		"price":5000,
-		"artist":"unknown",
-		"description":""
-	},{
-		"tags": [
-			{"tag":"black"},
+			{"tag":"painting"},
+			{"tag":"green"},
 			{"tag":"moon"},
-			{"tag":"blue"},
-			{"tag":"sky"},
-			{"tag":"night"},
-			{"tag":"raven"}
+			{"tag":"trees"}
 		],
-		"url":"raven_moon.jpg",
-		"price":5000,
-		"artist":"unknown",
-		"description":"creepy ass bird"
-	},{
-		"tags": [
-			{"tag":"robot"},
-			{"tag":"black and white"},
-			{"tag":"background"}
-		],
-		"url":"robot.jpg",
-		"price":5000,
-		"artist":"unknown",
+		"url":"img/art/landscape.jpg",
+		"price":2500,
+		"artist":"jane doe",
 		"description":""
 	},{
 		"tags": [
-			{"tag":"blue"},
-			{"tag":"whirlpool"},
-			{"tag":"ocean"},
-			{"tag":"background"}
+			{"tag":"color"},
+			{"tag":"landscape"},
+			{"tag":"painting"},
+			{"tag":"green"},
+			{"tag":"mountain"},
+			{"tag":"sky"}
 		],
-		"url":"whirlpool.jpg",
-		"price":5000,
-		"artist":"unknown",
-		"description":"downward spiral, just like my life"
+		"url":"img/art/mountain.jpg",
+		"price":2250,
+		"artist":"jane doe",
+		"description":""
 	},{
 		"tags": [
-			{"tag":"colors"},
-			{"tag":"shapes"},
-			{"tag":"abstract"},
-			{"tag":"wtf even is this"},
-			{"tag":"kindergarten"},
-			{"tag":"abstract"}
+			{"tag":"color"},
+			{"tag":"black"},
+			{"tag":"crow"},
+			{"tag":"blue"},
+			{"tag":"moon"},
+			{"tag":"tree"},
+			{"tag":"night"},
+			{"tag":"dark"}
 		],
-		"url":"wtfevenisthis.jpg",
-		"price":5000,
-		"artist":"some 5 year old probably",
-		"description":"seriously what is this"
+		"url":"img/art/crow.jpg",
+		"price":2500,
+		"artist":"jane doe",
+		"description":""
 	}
 ]
