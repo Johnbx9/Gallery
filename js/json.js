@@ -8,8 +8,8 @@ var art = [
 		],
 		"url":"img/art/rainbow-road.jpg",
 		"price":5000,
-		"artist":"unknown",
-		"description":"rainbow road, just like in mario kart"
+		"artist":"John Smith",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -20,8 +20,8 @@ var art = [
 		],
 		"url":"img/art/zebra.jpg",
 		"price":5000,
-		"artist":"unknown",
-		"description":"What's better than a black and white zebra? A rainbow zebra, that's what."
+		"artist":"Jane Smith",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -33,17 +33,17 @@ var art = [
 		"url":"img/art/circle_art.jpg",
 		"price":5000,
 		"artist":"unknown",
-		"description":""
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
-			{"tag":"nudity"},
+			{"tag":"rainbow"},
 			{"tag":"background"}
 		],
 		"url":"img/art/rainbow-hair.jpg",
 		"price":5000,
 		"artist":"unknown",
-		"description":"Did you ever get so high that you dunked your head in paint?"
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -54,7 +54,7 @@ var art = [
 		"url":"img/art/starry-night.jpg",
 		"price":5000,
 		"artist":"van gogh",
-		"description":"goghing once. goghing twice. sold!!"
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"black and white"},
@@ -63,8 +63,8 @@ var art = [
 		],
 		"url":"img/art/robot.jpg",
 		"price":5000,
-		"artist":"john doe",
-		"description":""
+		"artist":"John Doe",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -76,8 +76,8 @@ var art = [
 		],
 		"url":"img/art/city.jpg",
 		"price":6000,
-		"artist":"jane doe",
-		"description":""
+		"artist":"Jane Doe",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -88,8 +88,8 @@ var art = [
 		],
 		"url":"img/art/alien_city.jpg",
 		"price":3000,
-		"artist":"jane doe",
-		"description":"spooky"
+		"artist":"Jane Doe",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -101,8 +101,8 @@ var art = [
 		],
 		"url":"img/art/landscape.jpg",
 		"price":2500,
-		"artist":"jane doe",
-		"description":""
+		"artist":"Jane Doe",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -114,8 +114,8 @@ var art = [
 		],
 		"url":"img/art/mountain.jpg",
 		"price":2250,
-		"artist":"jane doe",
-		"description":""
+		"artist":"Jane Doe",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	},{
 		"tags": [
 			{"tag":"color"},
@@ -129,7 +129,7 @@ var art = [
 		],
 		"url":"img/art/crow.jpg",
 		"price":2500,
-		"artist":"jane doe",
-		"description":""
+		"artist":"Jane Doe",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida erat neque, a suscipit justo."
 	}
 ]
