@@ -2,6 +2,8 @@
 
 Fall 2015 Group Project for Software Engineering: CMP 408 at CUNY-Lehman College
 
+Partial demo (Javascript portion) available at: http://mahedikaiser.com/Gallery/
+
 <h2> Motivation </h2>
 
 We were asked to create a group project amongst 2-3 classmates over an approximately two month period, starting first with
